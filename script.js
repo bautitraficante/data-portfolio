@@ -50,7 +50,7 @@ const translations = {
         photoRole: "Data Science<br>Student",
 
         portfolio: "PORTFOLIO",
-        featuredProject: "Proyecto destacado",
+        featuredProject: "Proyectos destacados",
         portfolioDescription: `
             Proyectos completos: desde los datos originales
             hasta el análisis, las conclusiones y su publicación.
@@ -86,6 +86,21 @@ const translations = {
 
         viewDashboard: "Ver dashboard ↗",
         viewCode: "Ver código en GitHub →",
+
+        netflixIndex: "02 — CONTENT ANALYTICS",
+        netflixSummary: "Análisis de más de 500.000 registros semanales para estudiar permanencia, liderazgo y alcance internacional.",
+        netflixProblem: "Problema",
+        netflixProblemDescription: "Identificar qué películas y series dominaron el Top 10 y cómo cambian los resultados entre países.",
+        netflixProcess: "Proceso",
+        netflixProcessDescription: "Limpieza, validación, agrupaciones por título y país, análisis exploratorio y visualización.",
+        netflixResult: "Resultado",
+        netflixResultDescription: "Cinco preguntas respondidas y un dashboard interactivo con filtros y gráficos explorables.",
+        netflixRecords: "registros",
+        netflixCountries: "países",
+        netflixQuestions: "preguntas",
+        netflixViewDashboard: "Ver dashboard ↗",
+        netflixViewCode: "Ver código en GitHub →",
+        aiDisclosure: "Dashboard desarrollado con asistencia de inteligencia artificial.",
 
         nextProject: "PRÓXIMO PROYECTO",
         development: "Actualmente en desarrollo",
@@ -156,7 +171,7 @@ const translations = {
         photoRole: "Data Science<br>Student",
 
         portfolio: "PORTFOLIO",
-        featuredProject: "Featured project",
+        featuredProject: "Featured projects",
         portfolioDescription: `
             Complete projects: from the original data to analysis,
             conclusions and publication.
@@ -192,6 +207,21 @@ const translations = {
 
         viewDashboard: "View dashboard ↗",
         viewCode: "View code on GitHub →",
+
+        netflixIndex: "02 — CONTENT ANALYTICS",
+        netflixSummary: "Analysis of more than 500,000 weekly records to study persistence, leadership and international reach.",
+        netflixProblem: "Problem",
+        netflixProblemDescription: "Identifying which films and series dominated the Top 10 and how results differ across countries.",
+        netflixProcess: "Process",
+        netflixProcessDescription: "Cleaning, validation, title and country aggregations, exploratory analysis and visualization.",
+        netflixResult: "Result",
+        netflixResultDescription: "Five answered questions and an interactive dashboard with filters and explorable charts.",
+        netflixRecords: "records",
+        netflixCountries: "countries",
+        netflixQuestions: "questions",
+        netflixViewDashboard: "View dashboard ↗",
+        netflixViewCode: "View code on GitHub →",
+        aiDisclosure: "Dashboard developed with artificial intelligence assistance.",
 
         nextProject: "NEXT PROJECT",
         development: "Currently in development",
@@ -260,7 +290,7 @@ const translations = {
         photoRole: "Data Science<br>Student",
 
         portfolio: "PORTFOLIO",
-        featuredProject: "Progetto in evidenza",
+        featuredProject: "Progetti in evidenza",
         portfolioDescription: `
             Progetti completi: dai dati originali all'analisi,
             alle conclusioni e alla pubblicazione.
@@ -296,6 +326,21 @@ const translations = {
 
         viewDashboard: "Vedi la dashboard ↗",
         viewCode: "Vedi il codice su GitHub →",
+
+        netflixIndex: "02 — CONTENT ANALYTICS",
+        netflixSummary: "Analisi di oltre 500.000 registri settimanali per studiare permanenza, leadership e portata internazionale.",
+        netflixProblem: "Problema",
+        netflixProblemDescription: "Identificare quali film e serie hanno dominato la Top 10 e come cambiano i risultati tra i Paesi.",
+        netflixProcess: "Processo",
+        netflixProcessDescription: "Pulizia, validazione, aggregazioni per titolo e Paese, analisi esplorativa e visualizzazione.",
+        netflixResult: "Risultato",
+        netflixResultDescription: "Cinque domande con risposta e una dashboard interattiva con filtri e grafici esplorabili.",
+        netflixRecords: "registri",
+        netflixCountries: "Paesi",
+        netflixQuestions: "domande",
+        netflixViewDashboard: "Vedi la dashboard ↗",
+        netflixViewCode: "Vedi il codice su GitHub →",
+        aiDisclosure: "Dashboard sviluppata con l'assistenza dell'intelligenza artificiale.",
 
         nextProject: "PROSSIMO PROGETTO",
         development: "Attualmente in sviluppo",
@@ -370,24 +415,39 @@ const translatedElements = {
     featuredProject: "#proyectos .section-header h2",
     portfolioDescription: "#proyectos .section-header > p",
 
-    projectIndex: ".project-index",
-    projectSummary: ".project-summary",
+    projectIndex: ".project-hockey .project-index",
+    projectSummary: ".project-hockey .project-summary",
 
-    problem: ".project-details > div:nth-child(1) span",
-    problemDescription: ".project-details > div:nth-child(1) p",
+    problem: ".project-hockey .project-details > div:nth-child(1) span",
+    problemDescription: ".project-hockey .project-details > div:nth-child(1) p",
 
-    process: ".project-details > div:nth-child(2) span",
-    processDescription: ".project-details > div:nth-child(2) p",
+    process: ".project-hockey .project-details > div:nth-child(2) span",
+    processDescription: ".project-hockey .project-details > div:nth-child(2) p",
 
-    result: ".project-details > div:nth-child(3) span",
-    resultDescription: ".project-details > div:nth-child(3) p",
+    result: ".project-hockey .project-details > div:nth-child(3) span",
+    resultDescription: ".project-hockey .project-details > div:nth-child(3) p",
 
-    records: ".project-numbers > div:nth-child(1) span",
-    players: ".project-numbers > div:nth-child(2) span",
-    weeks: ".project-numbers > div:nth-child(3) span",
+    records: ".project-hockey .project-numbers > div:nth-child(1) span",
+    players: ".project-hockey .project-numbers > div:nth-child(2) span",
+    weeks: ".project-hockey .project-numbers > div:nth-child(3) span",
 
-    viewDashboard: ".project-buttons .button-primary",
-    viewCode: ".project-buttons .text-link",
+    viewDashboard: ".project-hockey .project-buttons .button-primary",
+    viewCode: ".project-hockey .project-buttons .text-link",
+
+    netflixIndex: ".project-netflix .project-index",
+    netflixSummary: ".project-netflix .project-summary",
+    netflixProblem: ".project-netflix .project-details > div:nth-child(1) span",
+    netflixProblemDescription: ".project-netflix .project-details > div:nth-child(1) p",
+    netflixProcess: ".project-netflix .project-details > div:nth-child(2) span",
+    netflixProcessDescription: ".project-netflix .project-details > div:nth-child(2) p",
+    netflixResult: ".project-netflix .project-details > div:nth-child(3) span",
+    netflixResultDescription: ".project-netflix .project-details > div:nth-child(3) p",
+    netflixRecords: ".project-netflix .project-numbers > div:nth-child(1) span",
+    netflixCountries: ".project-netflix .project-numbers > div:nth-child(2) span",
+    netflixQuestions: ".project-netflix .project-numbers > div:nth-child(3) span",
+    netflixViewDashboard: ".project-netflix .project-buttons .button-primary",
+    netflixViewCode: ".project-netflix .project-buttons .text-link",
+    aiDisclosure: ".project-netflix .ai-disclosure",
 
     nextProject: ".future-project div p",
     development: ".future-project div h3",
@@ -456,5 +516,6 @@ const savedLanguage =
     localStorage.getItem("portfolio-language") || "es";
 
 changeLanguage(savedLanguage);
+
 
 

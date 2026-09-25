@@ -995,3 +995,23 @@ html[data-theme="dark"] .theme-toggle {
     background: transparent;
     box-shadow: none;
 }
+
+/* SEGUNDO PROYECTO */
+
+.featured-project + .featured-project {
+    margin-top: 8rem;
+    padding-top: 8rem;
+    border-top: 1px solid var(--line);
+}
+
+.project-netflix .project-image-link {
+    background: #0b0b0b;
+}
+
+.ai-disclosure {
+    margin-top: 1.25rem;
+    color: var(--muted);
+    font-size: 0.78rem;
+    font-style: italic;
+}
+
