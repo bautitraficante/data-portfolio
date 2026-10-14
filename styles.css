@@ -1008,6 +1008,10 @@ html[data-theme="dark"] .theme-toggle {
     background: #0b0b0b;
 }
 
+.project-airline .project-image-link {
+    background: #071b33;
+}
+
 .ai-disclosure {
     margin-top: 1.25rem;
     color: var(--muted);
